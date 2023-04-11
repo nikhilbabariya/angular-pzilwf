@@ -1,0 +1,10 @@
+<p-toggleButton
+  [(ngModel)]="checked"
+  (click)="check()"
+  onLabel="I confirm"
+  offLabel="I reject"
+  onIcon="fa fa-check"
+  offIcon="fa fa-times"
+  [style]="{ width: '150px' }"
+></p-toggleButton>
+<p>{{ checked }}</p>
